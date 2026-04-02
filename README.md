@@ -119,7 +119,7 @@ A browser console script that injects a floating UI into Discord to automate **L
 
   // ── MODAL ──
   const modal = $('div', `
-    position:fixed; top:24px; right:24px; z-index:2147483647; width:300px;
+    position:fixed; top:24px; right:24px; z-index:2147483647; width:314px;
     background:linear-gradient(160deg,#1e1f28 0%,#23253a 50%,#1a1c2e 100%);
     border:1px solid rgba(88,101,242,.45); border-radius:16px; padding:0;
     font-family:'gg sans',system-ui,sans-serif; color:#e3e5e8;
