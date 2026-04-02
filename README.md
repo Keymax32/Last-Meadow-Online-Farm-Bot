@@ -29,26 +29,26 @@ A browser console script that injects a floating UI into Discord to automate **L
 
 ## 🎮 Panel guide
 
-| Element | Description |
-|---|---|
-| **🔑 Token** badge | Shows `✓ auto` if token was detected. Click `⟳ detect` to retry detection or paste manually |
-| **Token input** | Auto-filled when detected. You can always paste a different token here |
-| **🌿 Gathering** toggle | Sends `start` + `complete` every ~1.5 s |
-| **🔨 Crafting** toggle | Sends `start` + `complete` every ~2.5 m |
-| **⚔️ Combat** toggle | Sends `start` + `complete` every ~3 m |
-| **📋 Activity log** | Last 10 events with timestamps and resource gains |
-| **✕** button | Closes the panel and stops all active loops |
-| **Header** | Drag to reposition the panel |
+| Element                       | Description                                                                                       |
+| ----------------------------- | ------------------------------------------------------------------------------------------------- |
+| **🔑 Token** badge      | Shows `✓ auto` if token was detected. Click `⟳ detect` to retry detection or paste manually |
+| **Token input**         | Auto-filled when detected. You can always paste a different token here                            |
+| **🌿 Gathering** toggle | Sends `start` + `complete` every ~1.5 s                                                       |
+| **🔨 Crafting** toggle  | Sends `start` + `complete` every ~2.5 m                                                       |
+| **⚔️ Combat** toggle  | Sends `start` + `complete` every ~3 m                                                         |
+| **📋 Activity log**     | Last 10 events with timestamps and resource gains                                                 |
+| **✕** button           | Closes the panel and stops all active loops                                                       |
+| **Header**              | Drag to reposition the panel                                                                      |
 
 ---
 
 ## ⏱ Cooldowns
 
-| Activity | Start → Complete delay | Loop cooldown |
-|---|---|---|
-| Gathering | ~1.5 s | ~1.5 s |
-| Crafting | ~2.5 s | ~2.5 m |
-| Combat | ~2.5 s | ~3 m |
+| Activity  | Start → Complete delay | Loop cooldown |
+| --------- | ----------------------- | ------------- |
+| Gathering | ~1.5 s                  | ~1.5 s        |
+| Crafting  | ~2.5 s                  | ~2.5 m        |
+| Combat    | ~2.5 s                  | ~3 m          |
 
 All timings include ±15% random jitter.
 
@@ -56,11 +56,11 @@ All timings include ±15% random jitter.
 
 ## 🌐 Compatibility
 
-| Discord client | Supported |
-|---|---|
-| `discord.com` (browser) | ✅ |
-| `ptb.discord.com` (browser) | ✅ |
-| Discord Desktop (Electron) | ✅ |
+| Discord client                | Supported |
+| ----------------------------- | --------- |
+| `discord.com` (browser)     | ✅        |
+| `ptb.discord.com` (browser) | ✅        |
+| Discord Desktop (Electron)    | ✅        |
 
 The script reads `window.location.hostname` at runtime and automatically targets the correct API endpoint — no configuration needed.
 
